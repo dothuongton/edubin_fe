@@ -3,7 +3,7 @@
     padding: 0;
 }
 :root{
-    --color-menu: #07294d;
+    --color-main: #07294d;
     --color-hover-text:#ffc600;
 }
 
@@ -12,7 +12,7 @@
   }
 .menu_top{
     color: white;
-    background-color: var(--color-menu);
+    background-color: var(--color-main);
 }
 div.dropdown a:hover{
     color: var(--color-hover-text);
@@ -47,4 +47,124 @@ div.dropdown a:hover{
     background-color: var(--color-hover-text);
     transition: .2s;
 }
+.carousel-item{
+    position:relative;
+    color:#fff;
 
+}
+.carousel-caption-title{
+    max-width: 800px;
+}
+.carousel-caption{
+    position: absolute;
+    top: 27%;
+    right: 37%;
+}
+.carousel-caption button{
+    color:var(--color-main);
+    background-color: white;
+    width: 140px;
+}
+.carousel-caption button:hover{
+    background-color: var(--color-hover-text);
+    color:#fff;
+}
+/* platform */
+.platform{
+    background-color: var(--color-main);
+    color: #fff;
+    margin:0 auto;
+
+    height: 340px;
+    width:1240px;
+    /* justify-content: center; */
+    position:absolute;
+    top: 100%;
+    right:16%;
+    border-radius: 15px;
+    
+    
+}
+.platform_slide{
+    padding:20px;
+    position: relative;
+    width: 700px;
+}
+.platform_slide-item{
+    height:170px;
+    width:170px;
+    padding:15px;
+    margin:25px 10px;
+    border-radius: 10px;
+}
+.platform_slide-item img{
+    height:100px;
+    width:100px;
+    margin:auto;
+    margin-bottom: 10px;
+
+}
+#programs{
+    background-color: #b5d56a;
+}
+#events{
+    background-color: #ff6f6f;
+}
+#admission{
+    background-color: #4886ff;
+}
+#notice{
+    background-color:#b5d56a;
+}
+.platform_slide-prev{
+    position: absolute;
+    z-index: 3;
+    right: 56.5%;
+    top: 46%;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #557495;
+}
+.platform_slide-next{
+    position: absolute;
+    z-index: 3;
+    right:1.1%;
+    top: 46%;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #557495;
+}
+
+/* about us */
+.about_us{
+    margin-top: 150px;
+    background-color: #fefefe;
+    padding: 200px;
+}
+#line{
+    border: 2px solid var(--color-hover-text);
+    width:50px;
+    margin-bottom: 25px;
+}
+.about_us-left button:hover{
+    background-color:var(--color-hover-text);
+    color:white;
+}
+.about_us-title{
+    width: 300px;
+}
+.about_us-sub{
+    margin:20px 20px 20px 0px;
+    font-size:1.1rem;
+    color:gray;
+}
+.event_time{
+    color: gray;
+    line-height: 1.1rem;
+}
+.about_us-right{
+    padding: 60px;
+}
+.about_us-right-item >span>svg{
+    color:var(--color-hover-text);
+}
