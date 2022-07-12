@@ -1,0 +1,18 @@
+{
+  "name": "edubin",
+  "version": "1.0.0",
+  "description": "template edubin intern_fe_ghtk",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "author": "dothuongton",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "jquery": "^3.6.0",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "^3.1.6",
+    "vite": "^2.9.14"
+  }
+}
