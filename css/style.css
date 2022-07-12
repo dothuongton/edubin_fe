@@ -176,8 +176,9 @@ div.dropdown a:hover{
     color:var(--color-hover-text);
 }
 /* apply */
-.apply{
+.apply, .feature_course{
     margin:0px 200px;
+    background-color: rgb(241 245 249);
 }
 .btn-applynow{
     background-color:var(--color-hover-text);
@@ -191,4 +192,58 @@ div.dropdown a:hover{
 }
 .apply-right{
     background-color: #092e56;
+}
+/* feature_course */
+.feature_course-item{
+    background-color: rgb(248 250 252);
+    padding:60px;
+}
+.feature_course-item svg{
+    color:yellow;
+}
+.course-item-body{
+    padding:15px;
+}
+.checked>svg{
+    color: yellow;
+    fill:yellow;
+}
+.name-course{
+    font-weight:bold;
+    font-size: 1.5rem;
+    width:350px;
+}
+.course-data{
+    margin:10px 0px;
+}
+.course-data>svg{
+    color:black;
+}
+.avatar-teacher img{
+    border-radius:50%;
+}
+.name-teacher, .major-teacher{
+    font-weight: bold;
+    color:var(--color-main);
+}
+.info-teacher-course{
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    align-items: center;
+    margin:10px 0px;
+}
+.course-text-gray{
+    color:gray;
+}
+.cost-course{
+    font-weight:bold;
+    margin:10px 0px;
+}
+.facilities{
+    margin:30px 0px;
+}
+.facilities-right{
+    padding:40px;
+    color:white;
+    background-color:var(--color-main);
 }
